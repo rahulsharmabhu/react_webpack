@@ -9,7 +9,7 @@ include('./header.php')
 <link rel="stylesheet" href="../dist/main.css">
 
 <script type="text/javascript">
-        var myApp = {
+        var preshophmac = {
             shop : <?php echo json_encode($shop); ?>,
             hmac : <?php echo json_encode($hmac);; ?>
         };

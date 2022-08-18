@@ -29,5 +29,8 @@ module.exports = {
             }
         ]
     },
+    externals: {
+        preshophmacdata: 'preshophmac',
+   },
     plugins: [new MiniCssExtractPlugin()],
 };

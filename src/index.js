@@ -3,9 +3,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { App } from './App';
 import './App.scss';
+import preshophmac from 'preshophmacdata';
 
-console.log('this is app data',myApp);
+console.log('this is on the index page',preshophmac);
 
 const appElement = document.getElementById('app');
 
-ReactDOM.render(<App shop={myApp.shop} hmac={myApp.hmac}  />, appElement);
+ReactDOM.render(<App/>, appElement);

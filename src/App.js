@@ -1,4 +1,7 @@
 import React from 'react';
+import preshophmac from 'preshophmacdata';
+
+console.log('this is the app page ',preshophmac);
 
 export function App({shop,hmac}) {
     return (
